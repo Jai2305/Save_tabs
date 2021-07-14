@@ -102,8 +102,8 @@ function render()
         // instead we can use back tick ( ` ) to smoothly render strings and ${var_name} to access variables and ds
         ulEl.innerHTML += 
         `
-            <li><a target='_blank' href= '${myLeads[i]}' name='${myLeads[i]}'>${myNames[i]}</a></li>
-            <button id='${myLeads[i]}' class='remove-a-link' >REMOVE</button>
+            <li><a target='_blank' href= '${myLeads[i]}' name='${myLeads[i]}'>${myNames[i]}</a>
+            <button id='${myLeads[i]}' class='remove-a-link' >REMOVE</button></li>
         `
         //^ these are called template strings
     }
@@ -128,7 +128,7 @@ function showDel(deal)
 {   
     if(document.getElementById(deal))
     {   
-        document.getElementById(deal).style.display="block"
+        document.getElementById(deal).style.display="inline-block"
         setTimeout(function(){
             if(document.getElementById(deal))
             {
