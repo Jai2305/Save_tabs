@@ -1,5 +1,5 @@
 # Save_tabs 
-is and extension which lets you save tabs and urls so that u can access it 
+is an extension which lets you save tabs and urls so that u can access it 
 anytime you want just in one click
 
 * For saving tabs 
