@@ -1,6 +1,7 @@
 # Save_tabs 
 is an extension which lets you save tabs and urls so that u can access it 
 anytime you want just in one click
+![image](https://user-images.githubusercontent.com/47395196/131210673-c025badb-b329-4943-8c64-e341cd7eda8d.png)
 
 * For saving tabs 
 just write the name via whcih u want to save the url of the current
